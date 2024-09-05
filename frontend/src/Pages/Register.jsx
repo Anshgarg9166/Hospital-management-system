@@ -23,7 +23,7 @@ const Register = () => {
     try {
       await axios
         .post(
-          " https://hospital-management-system-frontend-q5wr.onrender.com/api/v1/user/patient/register",
+          " https://hospital-management-system-av4t.onrender.com/api/v1/user/patient/register",
           { firstName, lastName, email, phone, nic, dob, gender, password },
           {
             withCredentials: true,
